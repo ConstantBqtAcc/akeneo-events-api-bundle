@@ -1,5 +1,5 @@
 {
-    "name": "trilix/akeneo-events-api-bundle",
+    "name": "constantbqtacc/akeneo-events-api-bundle",
     "type": "symfony-bundle",
     "description": "Akeneo PIM Events API Bundle",
     "keywords": ["Akeneo", "PIM", "Events", "API"],
