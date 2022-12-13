@@ -12,8 +12,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('trilix_events_api');
+        $treeBuilder = new TreeBuilder("trilix_events_api");
+        $rootNode = $treeBuilder->getRootNode();
 
         $rootNode
             ->children()
